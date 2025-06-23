@@ -1,0 +1,270 @@
+<html>
+<head>
+<title>TestNG:  Login</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 09 15:13:27 PDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>441 seconds (441073 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testNg.testcases.ContactsTest.createNewContactView()'><b>createNewContactView</b><br>Test class: com.testNg.testcases.ContactsTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.ContactsTest@49ec71f8</td></tr>
+<tr>
+<td title='com.testNg.testcases.CreateAccountTest.createNewAccount()'><b>createNewAccount</b><br>Test class: com.testNg.testcases.CreateAccountTest</td>
+<td></td>
+<td>3</td>
+<td>com.testNg.testcases.CreateAccountTest@36bc55de</td></tr>
+<tr>
+<td title='com.testNg.testcases.OpportunityTest.opportunityPipelineReport()'><b>opportunityPipelineReport</b><br>Test class: com.testNg.testcases.OpportunityTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.OpportunityTest@564fabc8</td></tr>
+<tr>
+<td title='com.testNg.testcases.LeadsTest.leadsDropdownText()'><b>leadsDropdownText</b><br>Test class: com.testNg.testcases.LeadsTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.LeadsTest@16d04d3d</td></tr>
+<tr>
+<td title='com.testNg.testcases.ContactsTest.cancelContactViewButton()'><b>cancelContactViewButton</b><br>Test class: com.testNg.testcases.ContactsTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.ContactsTest@49ec71f8</td></tr>
+<tr>
+<td title='com.testNg.testcases.CreateAccountTest.mergeAccounts()'><b>mergeAccounts</b><br>Test class: com.testNg.testcases.CreateAccountTest</td>
+<td></td>
+<td>9</td>
+<td>com.testNg.testcases.CreateAccountTest@36bc55de</td></tr>
+<tr>
+<td title='com.testNg.testcases.CreateAccountTest.createNewView()'><b>createNewView</b><br>Test class: com.testNg.testcases.CreateAccountTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.CreateAccountTest@36bc55de</td></tr>
+<tr>
+<td title='com.testNg.testcases.OpportunityTest.newOpportunity()'><b>newOpportunity</b><br>Test class: com.testNg.testcases.OpportunityTest</td>
+<td></td>
+<td>4</td>
+<td>com.testNg.testcases.OpportunityTest@564fabc8</td></tr>
+<tr>
+<td title='com.testNg.testcases.ContactsTest.errorMessageContacts()'><b>errorMessageContacts</b><br>Test class: com.testNg.testcases.ContactsTest</td>
+<td></td>
+<td>3</td>
+<td>com.testNg.testcases.ContactsTest@49ec71f8</td></tr>
+<tr>
+<td title='com.testNg.testcases.OpportunityTest.opportunitiesDropdown()'><b>opportunitiesDropdown</b><br>Test class: com.testNg.testcases.OpportunityTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.OpportunityTest@564fabc8</td></tr>
+<tr>
+<td title='com.testNg.testcases.LeadsTest.newLead()'><b>newLead</b><br>Test class: com.testNg.testcases.LeadsTest</td>
+<td></td>
+<td>3</td>
+<td>com.testNg.testcases.LeadsTest@16d04d3d</td></tr>
+<tr>
+<td title='com.testNg.testcases.ContactsTest.viewContact()'><b>viewContact</b><br>Test class: com.testNg.testcases.ContactsTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.ContactsTest@49ec71f8</td></tr>
+<tr>
+<td title='com.testNg.testcases.LeadsTest.todaysLeads()'><b>todaysLeads</b><br>Test class: com.testNg.testcases.LeadsTest</td>
+<td></td>
+<td>7</td>
+<td>com.testNg.testcases.LeadsTest@16d04d3d</td></tr>
+<tr>
+<td title='com.testNg.testcases.ContactsTest.saveAndNewContactButton()'><b>saveAndNewContactButton</b><br>Test class: com.testNg.testcases.ContactsTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.ContactsTest@49ec71f8</td></tr>
+<tr>
+<td title='com.testNg.testcases.UsermenuTest.DeveloperConsole()'><b>DeveloperConsole</b><br>Test class: com.testNg.testcases.UsermenuTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.UsermenuTest@1189dd52</td></tr>
+<tr>
+<td title='com.testNg.testcases.UsermenuTest.userMenuDropdown()'><b>userMenuDropdown</b><br>Test class: com.testNg.testcases.UsermenuTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.UsermenuTest@1189dd52</td></tr>
+<tr>
+<td title='com.testNg.testcases.OpportunityTest.stuckOpportunityReport()'><b>stuckOpportunityReport</b><br>Test class: com.testNg.testcases.OpportunityTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.OpportunityTest@564fabc8</td></tr>
+<tr>
+<td title='com.testNg.testcases.LoginTest.invalidLogin()'><b>invalidLogin</b><br>Test class: com.testNg.testcases.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.LoginTest@3bb9a3ff</td></tr>
+<tr>
+<td title='com.testNg.testcases.CreateAccountTest.createNewReport()'><b>createNewReport</b><br>Test class: com.testNg.testcases.CreateAccountTest</td>
+<td></td>
+<td>2</td>
+<td>com.testNg.testcases.CreateAccountTest@36bc55de</td></tr>
+<tr>
+<td title='com.testNg.testcases.RandomScenariosTest.calendar()'><b>calendar</b><br>Test class: com.testNg.testcases.RandomScenariosTest</td>
+<td></td>
+<td>3</td>
+<td>com.testNg.testcases.RandomScenariosTest@1d2adfbe</td></tr>
+<tr>
+<td title='com.testNg.testcases.ContactsTest.createNewContact()'><b>createNewContact</b><br>Test class: com.testNg.testcases.ContactsTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.ContactsTest@49ec71f8</td></tr>
+<tr>
+<td title='com.testNg.testcases.RandomScenariosTest.editProfile()'><b>editProfile</b><br>Test class: com.testNg.testcases.RandomScenariosTest</td>
+<td></td>
+<td>5</td>
+<td>com.testNg.testcases.RandomScenariosTest@1d2adfbe</td></tr>
+<tr>
+<td title='com.testNg.testcases.UsermenuTest.MySettings()'><b>MySettings</b><br>Test class: com.testNg.testcases.UsermenuTest</td>
+<td></td>
+<td>10</td>
+<td>com.testNg.testcases.UsermenuTest@1189dd52</td></tr>
+<tr>
+<td title='com.testNg.testcases.RandomScenariosTest.verifyTab()'><b>verifyTab</b><br>Test class: com.testNg.testcases.RandomScenariosTest</td>
+<td></td>
+<td>6</td>
+<td>com.testNg.testcases.RandomScenariosTest@1d2adfbe</td></tr>
+<tr>
+<td title='com.testNg.testcases.LeadsTest.todaysLeadsView()'><b>todaysLeadsView</b><br>Test class: com.testNg.testcases.LeadsTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.LeadsTest@16d04d3d</td></tr>
+<tr>
+<td title='com.testNg.testcases.LoginTest.login()'><b>login</b><br>Test class: com.testNg.testcases.LoginTest</td>
+<td></td>
+<td>5</td>
+<td>com.testNg.testcases.LoginTest@3bb9a3ff</td></tr>
+<tr>
+<td title='com.testNg.testcases.CreateAccountTest.editView()'><b>editView</b><br>Test class: com.testNg.testcases.CreateAccountTest</td>
+<td></td>
+<td>2</td>
+<td>com.testNg.testcases.CreateAccountTest@36bc55de</td></tr>
+<tr>
+<td title='com.testNg.testcases.LoginTest.noPassword()'><b>noPassword</b><br>Test class: com.testNg.testcases.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.LoginTest@3bb9a3ff</td></tr>
+<tr>
+<td title='com.testNg.testcases.LeadsTest.leadsTab()'><b>leadsTab</b><br>Test class: com.testNg.testcases.LeadsTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.LeadsTest@16d04d3d</td></tr>
+<tr>
+<td title='com.testNg.testcases.UsermenuTest.MyProfile()'><b>MyProfile</b><br>Test class: com.testNg.testcases.UsermenuTest</td>
+<td></td>
+<td>20</td>
+<td>com.testNg.testcases.UsermenuTest@1189dd52</td></tr>
+<tr>
+<td title='com.testNg.testcases.LoginTest.forgotPassword()'><b>forgotPassword</b><br>Test class: com.testNg.testcases.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.testNg.testcases.LoginTest@3bb9a3ff</td></tr>
+<tr>
+<td title='com.testNg.testcases.RandomScenariosTest.verifyFirstLastName()'><b>verifyFirstLastName</b><br>Test class: com.testNg.testcases.RandomScenariosTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.RandomScenariosTest@1d2adfbe</td></tr>
+<tr>
+<td title='com.testNg.testcases.UsermenuTest.logout()'><b>logout</b><br>Test class: com.testNg.testcases.UsermenuTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.UsermenuTest@1189dd52</td></tr>
+<tr>
+<td title='com.testNg.testcases.OpportunityTest.opportunitySummaryReport()'><b>opportunitySummaryReport</b><br>Test class: com.testNg.testcases.OpportunityTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.OpportunityTest@564fabc8</td></tr>
+<tr>
+<td title='com.testNg.testcases.RandomScenariosTest.weeklyRecurrence()'><b>weeklyRecurrence</b><br>Test class: com.testNg.testcases.RandomScenariosTest</td>
+<td></td>
+<td>4</td>
+<td>com.testNg.testcases.RandomScenariosTest@1d2adfbe</td></tr>
+<tr>
+<td title='com.testNg.testcases.LoginTest.checkRememberMe()'><b>checkRememberMe</b><br>Test class: com.testNg.testcases.LoginTest</td>
+<td></td>
+<td>11</td>
+<td>com.testNg.testcases.LoginTest@3bb9a3ff</td></tr>
+<tr>
+<td title='com.testNg.testcases.ContactsTest.myContacts()'><b>myContacts</b><br>Test class: com.testNg.testcases.ContactsTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.ContactsTest@49ec71f8</td></tr>
+<tr>
+<td title='com.testNg.testcases.ContactsTest.recentlyCreatedContact()'><b>recentlyCreatedContact</b><br>Test class: com.testNg.testcases.ContactsTest</td>
+<td></td>
+<td>0</td>
+<td>com.testNg.testcases.ContactsTest@49ec71f8</td></tr>
+</table><p>
+</body>
+</html>

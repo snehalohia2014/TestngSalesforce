@@ -1,0 +1,15 @@
+
+2024-04-09 15:13:53,235 INFO  [Log] ****************           -S-T-A-R-T-Login Testcase       **************** 
+2024-04-09 15:13:53,424 INFO  [Log] Successfully entered the username 
+2024-04-09 15:14:28,651 INFO  [Log] ****************           -S-T-A-R-T-My Profile Testcase       **************** 
+2024-04-09 15:14:49,155 INFO  [Log] Successfully added photo 
+2024-04-09 15:14:57,210 INFO  [Log] ****************           -S-T-A-R-T-My Settings Testcase       **************** 
+2024-04-09 15:15:34,334 INFO  [Log] ****************           -S-T-A-R-T-Create New Account Testcase       **************** 
+2024-04-09 15:16:39,795 INFO  [Log] ****************           -S-T-A-R-T-New Opportunity Testcase       **************** 
+2024-04-09 15:16:44,006 INFO  [Log] Successfully created new opportunity 
+2024-04-09 15:17:49,921 INFO  [Log] ****************           -S-T-A-R-T-New Lead Testcase       **************** 
+2024-04-09 15:17:51,258 INFO  [Log] Successfully created new lead 
+2024-04-09 15:18:37,243 INFO  [Log] ****************           -S-T-A-R-T-Create New Contact Testcase       **************** 
+2024-04-09 15:18:39,157 INFO  [Log] Successfully created new contact 
+2024-04-09 15:20:03,806 INFO  [Log] ****************           -S-T-A-R-T-Edit Profile Testcase       **************** 
+2024-04-09 15:20:08,626 INFO  [Log] Successfully edited lastname 

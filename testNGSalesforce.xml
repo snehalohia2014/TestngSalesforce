@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+
+	<listeners>
+		<listener class-name="com.testNg.listeners.TestListener"></listener>
+	</listeners>
+
+	<test name="Login">
+
+		<classes>
+			<class name="com.testNg.testcases.LoginTest" />
+			<class name="com.testNg.testcases.UsermenuTest" />
+			<class name="com.testNg.testcases.CreateAccountTest" />
+			<class name="com.testNg.testcases.OpportunityTest" />
+			<class name="com.testNg.testcases.LeadsTest" />
+			<class name="com.testNg.testcases.ContactsTest" />
+			<class name="com.testNg.testcases.RandomScenariosTest" />
+		</classes>
+
+	</test>
+
+</suite>
